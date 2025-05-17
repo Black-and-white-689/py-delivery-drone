@@ -45,8 +45,8 @@ class FlyingRobot(BaseRobot):
     def __init__(
             self,
             name: str,
-            weight: int, coords:
-            Optional[List[int]] = None
+            weight: int,
+            coords: Optional[List[int]] = None
     ) -> None:
         if coords is None:
             coords = [0, 0, 0]
